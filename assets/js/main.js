@@ -9,7 +9,7 @@ function cargarScript(rutaScript) {
 const paginaActual = window.location.pathname;
 
 // Cargar scripts según la página
-if (paginaActual === "/gm/" || paginaActual.includes("index.html")) {
+if (paginaActual.includes("index.html") || paginaActual.endsWith("/gm/") || paginaActual.endsWith("/")) {
   cargarScript("assets/dist/js/bootstrap.bundle.min.js");
   cargarScript("assets/js/insignia.js");
   cargarScript("assets/js/pass.js");
@@ -59,6 +59,7 @@ cargarScript("../assets/js/footer.js");
   cargarScript("../assets/js/insignia.js");
   cargarScript("../assets/js/footer.js");
 }
+
 
 
 
