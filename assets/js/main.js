@@ -10,10 +10,10 @@ const paginaActual = window.location.pathname;
 
 // Cargar scripts según la página
 if (paginaActual === "/" || paginaActual.includes("index.html")) {
-  cargarScript("assets/dist/js/bootstrap.bundle.min.js");
-  cargarScript("assets/js/insignia.js");
-  cargarScript("assets/js/pass.js");
-  cargarScript("assets/js/footer.js");
+  cargarScript("../assets/dist/js/bootstrap.bundle.min.js");
+  cargarScript("../assets/js/insignia.js");
+  cargarScript("../assets/js/pass.js");
+  cargarScript("../assets/js/footer.js");
 } else if (paginaActual.includes("estadisticas/estadisticas-guerra-de-clanes")) {
   cargarScript("../assets/js/insignia.js"); 
   cargarScript("../assets/dist/js/bootstrap.bundle.min.js");   
@@ -59,3 +59,4 @@ cargarScript("../assets/js/footer.js");
   cargarScript("../assets/js/insignia.js");
   cargarScript("../assets/js/footer.js");
 }
+
