@@ -54,8 +54,9 @@ cargarScript("../assets/js/footer.js");
   cargarScript("../assets/dist/js/bootstrap.bundle.min.js");
   cargarScript("../assets/js/insignia.js");
   cargarScript("../assets/js/footer.js");
-} else if (paginaActual.includes("tutoriales/turorial-mazo-duelo")) {
+} else if (paginaActual.includes("tutoriales/tutorial-mazo-duelo")) {
   cargarScript("../assets/dist/js/bootstrap.bundle.min.js");
   cargarScript("../assets/js/insignia.js");
   cargarScript("../assets/js/footer.js");
 }
+
